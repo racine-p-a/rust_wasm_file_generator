@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Hello World - Rust</title>
+        <script type="module" src="./index.js"></script>
+    </head>
+    <body>
+        <div>
+            <input type="text" name="filename" id="filename" placeholder="filename">
+            <input type="number" name="size" id="size" min="1" value="1">
+            <select name="unit" id="unit">
+                <option value="octet">byte(s) / octet(s)</option>
+                <option value="kilooctet">kilobyte(s) / kilooctet(s)</option>
+                <option value="megaoctet">megabyte(s) / mégaoctet(s)</option>
+                <option value="gigaoctet">gigabyte(s) / gigaoctet(s)</option>
+            </select>
+            <button id="generateRandomFileButton">Download file</button>
+        </div>
+    </body>
+</html>
